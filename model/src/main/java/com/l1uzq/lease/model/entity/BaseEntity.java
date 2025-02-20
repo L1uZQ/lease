@@ -3,6 +3,8 @@ package com.l1uzq.lease.model.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
@@ -18,14 +20,18 @@ public class BaseEntity implements Serializable {
 
     @Schema(description = "创建时间")
     @TableField(value = "create_time")
+    @JsonIgnore //在查询支付方式时，创建时间这几个字段用不到
     private Date createTime;
 
     @Schema(description = "更新时间")
     @TableField(value = "update_time")
+    @JsonIgnore
     private Date updateTime;
 
     @Schema(description = "逻辑删除")
     @TableField("is_deleted")
+    @TableLogic  //表示isDeleted字段为逻辑删除字段，这样可以通过mybatis自动过滤
+    @JsonIgnore
     private Byte isDeleted;
 
 }
