@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现标签管理的接口">
+    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现配套管理的接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FacilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FacilityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/AttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/AttrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/AttrKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/AttrKeyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/AttrKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/AttrKeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/AttrKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/AttrKeyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/AttrKeyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/AttrKeyMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +58,13 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.1150748",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "043a86999aae3de41e54c4c39e842701"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -92,7 +101,8 @@
       <workItem from="1737531275912" duration="298000" />
       <workItem from="1737531650253" duration="1638000" />
       <workItem from="1737538135021" duration="1442000" />
-      <workItem from="1740021462217" duration="11707000" />
+      <workItem from="1740021462217" duration="14151000" />
+      <workItem from="1740041747123" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1737533053067</created>
@@ -129,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740038838429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="实现配套管理的接口">
+      <created>1740039406245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740039406245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +181,8 @@
     <MESSAGE value="实现保存、更新和删除支付方式列表的接口" />
     <MESSAGE value="实现租期管理的接口" />
     <MESSAGE value="实现标签管理的接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现标签管理的接口" />
+    <MESSAGE value="实现配套管理的接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现配套管理的接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
