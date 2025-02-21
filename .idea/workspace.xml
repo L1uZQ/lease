@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现基本属性管理的接口">
+    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现杂费管理的接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FeeKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FeeKeyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FeeKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FeeKeyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FeeKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FeeKeyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FeeKeyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FeeKeyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/RegionInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/RegionInfoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <workItem from="1740021462217" duration="14151000" />
       <workItem from="1740041747123" duration="2563000" />
       <workItem from="1740107851905" duration="611000" />
-      <workItem from="1740118222232" duration="2287000" />
+      <workItem from="1740118222232" duration="3449000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1737533053067</created>
@@ -155,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740044251431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="实现杂费管理的接口">
+      <created>1740120747311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740120747311</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +195,8 @@
     <MESSAGE value="实现标签管理的接口" />
     <MESSAGE value="实现配套管理的接口" />
     <MESSAGE value="实现基本属性管理的接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现基本属性管理的接口" />
+    <MESSAGE value="实现杂费管理的接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现杂费管理的接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
