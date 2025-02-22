@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现文件上传的接口">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="添加全局异常处理器">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/exception/LeaseException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/mybatisplus/MybatisPlusConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/mybatisplus/MybatisPlusConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/ApartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/ApartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ApartmentInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ApartmentInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FacilityInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FacilityInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FeeValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FeeValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/GraphInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/GraphInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/LabelInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/LabelInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ApartmentInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ApartmentInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ApartmentInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FacilityInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FacilityInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FeeValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FeeValueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/GraphInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/GraphInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LabelInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LabelInfoMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +117,10 @@
       <workItem from="1740021462217" duration="14151000" />
       <workItem from="1740041747123" duration="2563000" />
       <workItem from="1740107851905" duration="611000" />
-      <workItem from="1740118222232" duration="10243000" />
+      <workItem from="1740118222232" duration="11861000" />
+      <workItem from="1740191995258" duration="2375000" />
+      <workItem from="1740208902465" duration="8498000" />
+      <workItem from="1740219827138" duration="3631000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1737533053067</created>
@@ -176,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740126756082</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加全局异常处理器">
+      <created>1740129817681</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740129817681</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +239,8 @@
     <MESSAGE value="实现杂费管理的接口" />
     <MESSAGE value="实现地区信息查询的接口" />
     <MESSAGE value="实现文件上传的接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现文件上传的接口" />
+    <MESSAGE value="添加全局异常处理器" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加全局异常处理器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
