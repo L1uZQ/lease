@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现租约管理的接口">
+    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现用户管理的接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/user/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/user/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/system/SystemPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/system/SystemPostController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       <workItem from="1740191995258" duration="2375000" />
       <workItem from="1740208902465" duration="8498000" />
       <workItem from="1740219827138" duration="3739000" />
-      <workItem from="1740278573342" duration="14554000" />
+      <workItem from="1740278573342" duration="15389000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1737533053067</created>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740299543704</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="实现用户管理的接口">
+      <created>1740300765710</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740300765710</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +293,8 @@
     <MESSAGE value="实现房间管理的接口，web-app公寓管理模块基本完成" />
     <MESSAGE value="实现看房预约管理的接口" />
     <MESSAGE value="实现租约管理的接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现租约管理的接口" />
+    <MESSAGE value="实现用户管理的接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现用户管理的接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
