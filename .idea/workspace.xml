@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现看房预约管理的接口">
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/schedule/ScheduleTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/test/java/com/l1uzq/lease/web/admin/schedule/ScheduleTasksTest.java" afterDir="false" />
+    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现租约管理的接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/AdminWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/AdminWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/lease/LeaseAgreementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/lease/LeaseAgreementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/LeaseAgreementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/LeaseAgreementMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/LeaseAgreementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/LeaseAgreementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/LeaseAgreementServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseAgreementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseAgreementMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/user/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/user/UserInfoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +74,14 @@
       <recent name="E:\Code library\IDEA_Pro\lease\web\web-admin\src\main\resources" />
       <recent name="E:\Code library\IDEA_Pro\lease\model\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.l1uzq.lease.web.admin.schedule" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ScheduleTasksTest.test">
+  <component name="RunManager" selected="Spring Boot.AdminWebApplication">
     <configuration name="ScheduleTasksTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-admin" />
       <extension name="coverage">
@@ -135,7 +135,7 @@
       <workItem from="1740191995258" duration="2375000" />
       <workItem from="1740208902465" duration="8498000" />
       <workItem from="1740219827138" duration="3739000" />
-      <workItem from="1740278573342" duration="13218000" />
+      <workItem from="1740278573342" duration="14554000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1737533053067</created>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740295034443</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="实现租约管理的接口">
+      <created>1740299543704</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740299543704</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +286,8 @@
     <MESSAGE value="实现公寓管理的接口" />
     <MESSAGE value="实现房间管理的接口，web-app公寓管理模块基本完成" />
     <MESSAGE value="实现看房预约管理的接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现看房预约管理的接口" />
+    <MESSAGE value="实现租约管理的接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现租约管理的接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
