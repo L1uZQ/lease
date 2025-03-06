@@ -4,147 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="实现后台登录管理的接口">
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/AppWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/agreement/LeaseAgreementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/apartment/ApartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/appointment/ViewAppointmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/history/BrowsingHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/leasaterm/LeaseTermController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/login/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/payment/PaymentTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/region/RegionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/room/RoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/custom/config/Knife4jConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentFacilityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentFeeValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentLabelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/AttrKeyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/AttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/BrowsingHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/CityInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/DistrictInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/FacilityInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/FeeKeyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/FeeValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/GraphInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/LabelInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/LeaseAgreementMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/LeaseTermMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/PaymentTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ProvinceInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomFacilityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomLabelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomLeaseTermMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomPaymentTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/UserInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ViewAppointmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentFacilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentFeeValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentLabelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/AttrKeyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/AttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/BrowsingHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/CityInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/DistrictInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/FacilityInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/FeeKeyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/FeeValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/GraphInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LabelInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LeaseAgreementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LeaseTermService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/PaymentTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ProvinceInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomAttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomFacilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomLabelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomLeaseTermService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomPaymentTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/UserInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ViewAppointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentFacilityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentFeeValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentLabelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/AttrKeyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/AttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/BrowsingHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/CityInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/DistrictInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/FacilityInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/FeeKeyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/FeeValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/GraphInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LabelInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LeaseAgreementServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LeaseTermServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/PaymentTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ProvinceInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomFacilityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomLabelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomLeaseTermServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomPaymentTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/SmsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ViewAppointmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/agreement/AgreementDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/agreement/AgreementItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/apartment/ApartmentDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/apartment/ApartmentItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/appointment/AppointmentDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/appointment/AppointmentItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/attr/AttrKeyVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/attr/AttrValueVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/fee/FeeKeyVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/fee/FeeValueVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/graph/GraphVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/history/HistoryItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/room/RoomDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/room/RoomItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/room/RoomQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/user/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/user/UserInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/user/UserSubmitVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentFacilityMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentFeeValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentLabelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/AttrKeyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/AttrValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/BrowsingHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/CityInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/DistrictInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FacilityInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FeeKeyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FeeValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/GraphInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LabelInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LeaseAgreementMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LeaseTermMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/PaymentTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ProvinceInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomAttrValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomFacilityMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomLabelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomLeaseTermMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomPaymentTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ViewAppointmentMapper.xml" afterDir="false" />
+    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="完成移动端后台的初始配置">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/sms/AliyunSMSConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/sms/AliyunSMSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/utils/CodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/custom/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/custom/interceptor/AuthenticationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-app/src/test/java/com/l1uzq/lease/web/app/service/impl/SmsServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/minio/MinioConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/minio/MinioConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,10 +90,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.l1uzq.lease.web.app.service.impl" />
       <recent name="com.l1uzq.lease.web.admin.schedule" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppWebApplication">
+  <component name="RunManager" selected="应用程序.JwtUtil">
     <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.l1uzq.lease.common.utils.JwtUtil" />
       <module name="common" />
@@ -249,6 +124,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmsServiceImplTest.sendCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l1uzq.lease.web.app.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.l1uzq.lease.web.app.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.l1uzq.lease.web.app.service.impl.SmsServiceImplTest" />
+      <option name="METHOD_NAME" value="sendCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="web-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.l1uzq.lease.AdminWebApplication" />
@@ -271,8 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AppWebApplication" />
         <item itemvalue="应用程序.JwtUtil" />
+        <item itemvalue="Spring Boot.AppWebApplication" />
+        <item itemvalue="JUnit.SmsServiceImplTest.sendCode" />
         <item itemvalue="JUnit.ScheduleTasksTest.test" />
       </list>
     </recent_temporary>
@@ -306,7 +198,7 @@
       <workItem from="1740622996647" duration="2535000" />
       <workItem from="1740964200696" duration="4559000" />
       <workItem from="1740981583146" duration="5999000" />
-      <workItem from="1741239419905" duration="4477000" />
+      <workItem from="1741239419905" duration="10642000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1737533053067</created>
@@ -441,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740986582311</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="完成移动端后台的初始配置">
+      <created>1741244174987</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741244174987</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +389,8 @@
     <MESSAGE value="实现后台用户岗位管理的接口" />
     <MESSAGE value="实现后台用户信息管理的接口" />
     <MESSAGE value="实现后台登录管理的接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现后台登录管理的接口" />
+    <MESSAGE value="完成移动端后台的初始配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成移动端后台的初始配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

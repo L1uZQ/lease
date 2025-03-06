@@ -18,6 +18,11 @@ spring:
       pool-name: SPHHikariPool # 连接池名称
   jackson:
     time-zone: GMT+8
+  data:
+    redis:
+      host: 192.168.40.101
+      port: 6379
+      database: 0
 
 #用于打印框架生成的sql语句，便于调试
 mybatis-plus:
@@ -26,3 +31,10 @@ mybatis-plus:
 
 springdoc:
   default-flat-param-object: true
+
+
+aliyun:
+  sms:
+    access-key-id: LTAI5t6cwMWh8aVyCVCCaa6r
+    access-key-secret: 7cULjthkrlxoXyFU3D2roWm5JiuWXE
+    endpoint: dysmsapi.aliyuncs.com
