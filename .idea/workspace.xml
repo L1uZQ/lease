@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="更新.gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/constant/RedisConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/exception/LeaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/login/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/login/LoginUserHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/minio/MinioConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/minio/MinioProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/mybatisplus/MybatisMetaObjectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/mybatisplus/MybatisPlusConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/result/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/result/ResultCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/sms/AliyunSMSConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/sms/AliyunSMSProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/utils/CodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/l1uzq/lease/common/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/ApartmentFacility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/ApartmentFeeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/ApartmentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/ApartmentLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/AttrKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/AttrValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/BrowsingHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/CityInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/DistrictInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/FacilityInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/FeeKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/FeeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/GraphInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/LabelInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/LeaseAgreement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/LeaseTerm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/PaymentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/ProvinceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/RoomAttrValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/RoomFacility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/RoomInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/RoomLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/RoomLeaseTerm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/RoomPaymentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/SystemPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/SystemUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/entity/ViewAppointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/AppointmentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/BaseEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/BaseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/LeaseSourceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/LeaseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/ReleaseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/l1uzq/lease/model/enums/SystemUserType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/AdminWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/ApartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/AttrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FacilityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/LabelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/LeaseTermController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/PaymentTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/RegionInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/apartment/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/lease/LeaseAgreementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/lease/ViewAppointmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/login/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/system/SystemPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/system/SystemUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/controller/user/UserInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/custom/config/Knife4jConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/custom/config/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/custom/converter/StringToBaseEnumConverterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/custom/interceptor/AuthenticationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ApartmentFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ApartmentFeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ApartmentInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ApartmentLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/AttrKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/AttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/BrowsingHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/CityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/DistrictInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FacilityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FeeKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/FeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/GraphInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/LabelInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/LeaseAgreementMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/LeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/PaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ProvinceInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/RoomAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/RoomFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/RoomInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/RoomLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/RoomLeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/RoomPaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/SystemPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/SystemUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/mapper/ViewAppointmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/schedule/ScheduleTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ApartmentFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ApartmentFeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ApartmentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ApartmentLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/AttrKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/AttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/BrowsingHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/CityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/DistrictInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FacilityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FeeKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/GraphInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/LabelInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/LeaseAgreementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/LeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/PaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ProvinceInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/RoomAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/RoomFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/RoomInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/RoomLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/RoomLeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/RoomPaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/SystemPostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/SystemUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/ViewAppointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ApartmentFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ApartmentFeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ApartmentLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/AttrKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/AttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/BrowsingHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/CityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/DistrictInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FacilityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FeeKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/FileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/GraphInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/LabelInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/LeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/PaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ProvinceInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/RoomAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/RoomFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/RoomInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/RoomLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/RoomLeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/RoomPaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/SystemPostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/SystemUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/service/impl/ViewAppointmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/agreement/AgreementQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/agreement/AgreementVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/apartment/ApartmentDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/apartment/ApartmentItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/apartment/ApartmentQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/apartment/ApartmentSubmitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/appointment/AppointmentQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/appointment/AppointmentVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/attr/AttrKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/attr/AttrValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/fee/FeeKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/fee/FeeValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/graph/GraphVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/login/CaptchaVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/login/LoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/room/RoomDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/room/RoomItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/room/RoomQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/room/RoomSubmitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/system/user/SystemUserInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/system/user/SystemUserItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/system/user/SystemUserQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/l1uzq/lease/web/admin/vo/user/UserInfoQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentFeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/AttrKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/AttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/BrowsingHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/CityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/DistrictInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FacilityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FeeKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/GraphInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LabelInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseAgreementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/PaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ProvinceInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomAttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomLeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomPaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/SystemPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/SystemUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ViewAppointmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/test/java/com/l1uzq/lease/web/admin/schedule/ScheduleTasksTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/AppWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/agreement/LeaseAgreementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/apartment/ApartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/appointment/ViewAppointmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/history/BrowsingHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/leasaterm/LeaseTermController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/login/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/payment/PaymentTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/region/RegionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/controller/room/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/custom/config/Knife4jConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/custom/config/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/custom/interceptor/AuthenticationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentFeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ApartmentLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/AttrKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/AttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/BrowsingHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/CityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/DistrictInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/FacilityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/FeeKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/FeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/GraphInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/LabelInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/LeaseAgreementMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/LeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/PaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ProvinceInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomLeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/RoomPaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/mapper/ViewAppointmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentFeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ApartmentLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/AttrKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/AttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/BrowsingHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/CityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/DistrictInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/FacilityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/FeeKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/FeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/GraphInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LabelInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LeaseAgreementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/PaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ProvinceInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomLeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/RoomPaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/SmsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/ViewAppointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentFeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ApartmentLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/AttrKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/AttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/BrowsingHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/CityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/DistrictInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/FacilityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/FeeKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/FeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/GraphInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LabelInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/PaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ProvinceInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomLeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/RoomPaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/SmsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/service/impl/ViewAppointmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/agreement/AgreementDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/agreement/AgreementItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/apartment/ApartmentDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/apartment/ApartmentItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/appointment/AppointmentDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/appointment/AppointmentItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/attr/AttrKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/attr/AttrValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/fee/FeeKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/fee/FeeValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/graph/GraphVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/history/HistoryItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/room/RoomDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/room/RoomItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/room/RoomQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/user/LoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/user/UserInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/l1uzq/lease/web/app/vo/user/UserSubmitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentFeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ApartmentLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/AttrKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/AttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/BrowsingHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/CityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/DistrictInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FacilityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FeeKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/GraphInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LabelInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LeaseAgreementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/PaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ProvinceInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomAttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomLeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomPaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/ViewAppointmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/test/java/com/l1uzq/lease/web/app/service/impl/SmsServiceImplTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2rkc7iwRynUPSS6vWMQowiW4VBP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/Code library/IDEA_Pro/lease/web/web-app/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.1150748",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "043a86999aae3de41e54c4c39e842701"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code library\IDEA_Pro\lease\web\web-app\src\main\java" />
+      <recent name="E:\Code library\IDEA_Pro\lease\web\web-app\src\main\resources" />
+      <recent name="E:\Code library\IDEA_Pro\lease\common\src\main\java" />
+      <recent name="E:\Code library\IDEA_Pro\lease\web\web-admin\src\main\java" />
+      <recent name="E:\Code library\IDEA_Pro\lease\web\web-admin\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.l1uzq.lease.web.app.service.impl" />
+      <recent name="com.l1uzq.lease.web.admin.schedule" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.JwtUtil">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.l1uzq.lease.common.utils.JwtUtil" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l1uzq.lease.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduleTasksTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l1uzq.lease.web.admin.schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.l1uzq.lease.web.admin.schedule" />
+      <option name="MAIN_CLASS_NAME" value="com.l1uzq.lease.web.admin.schedule.ScheduleTasksTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsServiceImplTest.sendCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l1uzq.lease.web.app.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.l1uzq.lease.web.app.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.l1uzq.lease.web.app.service.impl.SmsServiceImplTest" />
+      <option name="METHOD_NAME" value="sendCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.l1uzq.lease.AdminWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.l1uzq.lease.AppWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l1uzq.lease.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.JwtUtil" />
+        <item itemvalue="Spring Boot.AppWebApplication" />
+        <item itemvalue="JUnit.SmsServiceImplTest.sendCode" />
+        <item itemvalue="JUnit.ScheduleTasksTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="24c811fe-a656-4e35-b07c-0f3086538fa6" name="变更" comment="" />
+      <created>1737106352938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737106352938</updated>
+      <workItem from="1737106354492" duration="541000" />
+      <workItem from="1737184825004" duration="1291000" />
+      <workItem from="1737188264851" duration="4561000" />
+      <workItem from="1737270719916" duration="4250000" />
+      <workItem from="1737530440501" duration="169000" />
+      <workItem from="1737530683635" duration="496000" />
+      <workItem from="1737531275912" duration="298000" />
+      <workItem from="1737531650253" duration="1638000" />
+      <workItem from="1737538135021" duration="1442000" />
+      <workItem from="1740021462217" duration="14151000" />
+      <workItem from="1740041747123" duration="2563000" />
+      <workItem from="1740107851905" duration="611000" />
+      <workItem from="1740118222232" duration="11861000" />
+      <workItem from="1740191995258" duration="2375000" />
+      <workItem from="1740208902465" duration="8498000" />
+      <workItem from="1740219827138" duration="3739000" />
+      <workItem from="1740278573342" duration="18342000" />
+      <workItem from="1740553391026" duration="4690000" />
+      <workItem from="1740622996647" duration="2535000" />
+      <workItem from="1740964200696" duration="4559000" />
+      <workItem from="1740981583146" duration="5999000" />
+      <workItem from="1741239419905" duration="12482000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1737533053067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737533053068</updated>
+    </task>
+    <task id="LOCAL-00002" summary="实现查询支付方式列表的接口">
+      <created>1740027561809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740027561809</updated>
+    </task>
+    <task id="LOCAL-00003" summary="实现保存、更新和删除支付方式列表的接口">
+      <created>1740029268078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740029268078</updated>
+    </task>
+    <task id="LOCAL-00004" summary="实现租期管理的接口">
+      <created>1740033005801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740033005801</updated>
+    </task>
+    <task id="LOCAL-00005" summary="实现标签管理的接口">
+      <created>1740038838429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740038838429</updated>
+    </task>
+    <task id="LOCAL-00006" summary="实现配套管理的接口">
+      <created>1740039406245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740039406245</updated>
+    </task>
+    <task id="LOCAL-00007" summary="实现基本属性管理的接口">
+      <created>1740044251431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740044251431</updated>
+    </task>
+    <task id="LOCAL-00008" summary="实现杂费管理的接口">
+      <created>1740120747311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740120747311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="实现地区信息查询的接口">
+      <created>1740121917917</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740121917917</updated>
+    </task>
+    <task id="LOCAL-00010" summary="实现文件上传的接口">
+      <created>1740126756082</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740126756082</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加全局异常处理器">
+      <created>1740129817681</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740129817681</updated>
+    </task>
+    <task id="LOCAL-00012" summary="实现公寓管理的接口">
+      <created>1740223914151</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740223914151</updated>
+    </task>
+    <task id="LOCAL-00013" summary="实现房间管理的接口，web-app公寓管理模块基本完成">
+      <created>1740288352149</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740288352149</updated>
+    </task>
+    <task id="LOCAL-00014" summary="实现看房预约管理的接口">
+      <created>1740295034443</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740295034443</updated>
+    </task>
+    <task id="LOCAL-00015" summary="实现租约管理的接口">
+      <created>1740299543704</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740299543704</updated>
+    </task>
+    <task id="LOCAL-00016" summary="实现用户管理的接口">
+      <created>1740300765710</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740300765710</updated>
+    </task>
+    <task id="LOCAL-00017" summary="实现后台用户岗位管理的接口">
+      <created>1740301606789</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740301606789</updated>
+    </task>
+    <task id="LOCAL-00018" summary="实现后台用户信息管理的接口">
+      <created>1740556653042</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740556653042</updated>
+    </task>
+    <task id="LOCAL-00019" summary="实现后台登录管理的接口">
+      <created>1740986582311</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740986582311</updated>
+    </task>
+    <task id="LOCAL-00020" summary="完成移动端后台的初始配置">
+      <created>1741244174987</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741244174987</updated>
+    </task>
+    <task id="LOCAL-00021" summary="完成app后台登录管理的接口">
+      <created>1741251949517</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741251949517</updated>
+    </task>
+    <task id="LOCAL-00022" summary="完成app后台登录管理的接口">
+      <created>1741252375398</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1741252375398</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <MESSAGE value="实现查询支付方式列表的接口" />
+    <MESSAGE value="实现保存、更新和删除支付方式列表的接口" />
+    <MESSAGE value="实现租期管理的接口" />
+    <MESSAGE value="实现标签管理的接口" />
+    <MESSAGE value="实现配套管理的接口" />
+    <MESSAGE value="实现基本属性管理的接口" />
+    <MESSAGE value="实现杂费管理的接口" />
+    <MESSAGE value="实现地区信息查询的接口" />
+    <MESSAGE value="实现文件上传的接口" />
+    <MESSAGE value="添加全局异常处理器" />
+    <MESSAGE value="实现公寓管理的接口" />
+    <MESSAGE value="实现房间管理的接口，web-app公寓管理模块基本完成" />
+    <MESSAGE value="实现看房预约管理的接口" />
+    <MESSAGE value="实现租约管理的接口" />
+    <MESSAGE value="实现用户管理的接口" />
+    <MESSAGE value="实现后台用户岗位管理的接口" />
+    <MESSAGE value="实现后台用户信息管理的接口" />
+    <MESSAGE value="实现后台登录管理的接口" />
+    <MESSAGE value="完成移动端后台的初始配置" />
+    <MESSAGE value="完成app后台登录管理的接口" />
+    <MESSAGE value="更新.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新.gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.yaml.snakeyaml.error.YAMLException" package="org.yaml.snakeyaml.error" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
