@@ -1,7 +1,12 @@
 package com.l1uzq.lease.web.app.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.l1uzq.lease.model.entity.RoomInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.l1uzq.lease.web.app.vo.room.RoomDetailVo;
+import com.l1uzq.lease.web.app.vo.room.RoomItemVo;
+import com.l1uzq.lease.web.app.vo.room.RoomQueryVo;
 
 /**
 * @author liubo
@@ -9,4 +14,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @createDate 2023-07-26 11:12:39
 */
 public interface RoomInfoService extends IService<RoomInfo> {
+    IPage<RoomItemVo> pageItem(Page<RoomItemVo> page, RoomQueryVo queryVo);
+
+    RoomDetailVo getDetailById(Long id);
+
+    IPage<RoomItemVo> pageItemByApartmentId(Page<RoomItemVo> page, Long id);
 }
